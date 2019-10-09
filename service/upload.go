@@ -31,12 +31,12 @@ func (s *Service) uploadFile(params operations.PostAPIV1UploadParams) (*models.U
 		return nil, err
 	}
 
+	// save request
 	createdAt, err := ptypes.TimestampProto(time.Now())
 	if err != nil {
 		return nil, err
 	}
 
-	// save request
 	createRequest := request_repository.CreateRequestParams{
 		CreatedAt: createdAt,
 		UserUuid:  "",
