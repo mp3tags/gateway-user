@@ -10,12 +10,12 @@ require (
 	github.com/go-openapi/strfmt v0.19.3
 	github.com/go-openapi/swag v0.19.5
 	github.com/go-openapi/validate v0.19.3
+	github.com/golang/protobuf v1.4.3
 	github.com/jessevdk/go-flags v1.4.0
-	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
-	github.com/modern-go/reflect2 v1.0.1 // indirect
 	github.com/mp3tags/request-repository-proto v0.0.1
-	github.com/prometheus/client_golang v1.1.0 // indirect
-	golang.org/x/crypto v0.0.0-20190617133340-57b3e21c3d56 // indirect
-	golang.org/x/net v0.0.0-20191003171128-d98b1b443823
-	golang.org/x/tools v0.0.0-20190617190820-da514acc4774 // indirect
+	golang.org/x/net v0.0.0-20200625001655-4c5254603344
+	golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40 // indirect
+	google.golang.org/protobuf v1.26.0-rc.1 // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
+	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
